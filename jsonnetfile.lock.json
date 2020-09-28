@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "dependencies": [
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/grafana/jsonnet-libs.git",
+          "subdir": "etcd-operator"
+        }
+      },
+      "version": "ab0e5d8a62180b52ace18b53bc57c87c2b4f1044",
+      "sum": "WMH01sAdeCV6eGqFjEP/va9a1UKikOhRottwsp+ai70="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/grafana/jsonnet-libs.git",
+          "subdir": "ksonnet-util"
+        }
+      },
+      "version": "ab0e5d8a62180b52ace18b53bc57c87c2b4f1044",
+      "sum": "TGgjbv8oGfmMNjfvcgxi2cX9RAJKGZnYGLEhzK2wNjM="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/ksonnet/ksonnet-lib.git",
+          "subdir": "ksonnet.beta.4"
+        }
+      },
+      "version": "0d2f82676817bbf9e4acf6495b2090205f323b9f",
+      "sum": "ur22hPQq0JAPBxm8hNMcwjumj4MkozDwOKiGZvVMYh4="
+    },
+    {
+      "source": {
+        "git": {
+          "remote": "https://github.com/nlowe/minio-gateway-azure-libsonnet.git",
+          "subdir": ""
+        }
+      },
+      "version": "166a337c245d665d876a415e707d4b5171addf17",
+      "sum": "FMIW0RQiuTrbF/C0PajRaYZMtvjbNIDszOgipLuzd6Y="
+    }
+  ],
+  "legacyImports": false
+}
