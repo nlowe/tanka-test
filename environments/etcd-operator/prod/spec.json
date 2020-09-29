@@ -2,10 +2,11 @@
   "apiVersion": "tanka.dev/v1alpha1",
   "kind": "Environment",
   "metadata": {
-    "name": "example"
+    "name": "prod"
   },
   "spec": {
     "apiServer": "",
-    "namespace": "minio"
+    "namespace": "etcd-operator",
+    "resourceDefaults": {}
   }
 }
